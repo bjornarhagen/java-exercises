@@ -14,10 +14,10 @@ public class Exercise5 extends Exercise {
 
         for (int i = 0; i < this.string.length(); i+=2) {
             if (this.string.length() > i+1) {
-                newString.append(this.string.charAt(i+1)).append(this.string.charAt(i));
-            } else {
-                newString.append(this.string.charAt(i));
+                newString.append(this.string.charAt(i+1));
             }
+
+            newString.append(this.string.charAt(i));
         }
 
         return newString.toString();
