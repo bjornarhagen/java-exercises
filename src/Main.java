@@ -18,6 +18,10 @@ public class Main {
         outputFormattedExerciseString(4);
         Exercise4 ex4 = new Exercise4("Lorem ipsum dolor sit amet");
         System.out.println("Capitalized words: " + ex4.capitalizeWords());
+
+        outputFormattedExerciseString(5);
+        Exercise5 ex5 = new Exercise5("Hello World");
+        System.out.println("Swap pairs: " + ex5.swapCharacterPairs());
     }
 
     public static void outputFormattedExerciseString(int exerciseNumber) {
