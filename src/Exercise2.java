@@ -12,6 +12,6 @@ public class Exercise2 extends Exercise {
     }
 
     public int countWordsInTextLine() {
-        return this.string.split(" ").length;
+        return this.string.trim().split(" ").length;
     }
 }
