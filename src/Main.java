@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Swap pairs: " + ex5.swapCharacterPairs());
     }
 
-    public static void outputFormattedExerciseString(int exerciseNumber) {
+    private static void outputFormattedExerciseString(int exerciseNumber) {
         if (exerciseNumber > 1) {
             System.out.print("------------------\n\n");
         }
