@@ -1,3 +1,5 @@
+package Strings;
+
 public class Exercise3 extends Exercise {
     private final String string;
 

@@ -1,3 +1,5 @@
+package Strings;
+
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -19,5 +21,9 @@ public class Exercise4 extends Exercise {
 
     private static String capitalizeWord(String string) {
         return string.substring(0, 1).toUpperCase() + string.substring(1);
+    }
+
+    private static int capitalizeWord(int i) {
+        return i;
     }
 }

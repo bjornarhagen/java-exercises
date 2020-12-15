@@ -1,3 +1,5 @@
+package Strings;
+
 import java.util.Arrays;
 
 public class Exercise2 extends Exercise {
