@@ -1,6 +1,6 @@
 package Strings;
 
-public class Main {
+public class StringsMain {
     public static void main(String[] args) throws Exception {
         outputFormattedExerciseString(1);
         Exercise1 ex1 = new Exercise1("Hello world 👋");
