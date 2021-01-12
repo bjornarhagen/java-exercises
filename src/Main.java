@@ -5,7 +5,8 @@ import Generics.Rocks;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Bucket<Sand> bucket = new Bucket(new Sand());
+        Sand sand = new Sand();
+        Bucket<?> bucket = new Bucket(sand);
         bucket.fill(new Water());
 
 //        bucket.empty();

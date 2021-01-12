@@ -1,13 +1,13 @@
 package Generics;
 
 public class Bucket <T extends BucketContent> {
-    private T content;
+    private BucketContent content;
 
     public Bucket() {
         this.content = null;
     }
 
-    public Bucket(T content) {
+    public Bucket(BucketContent content) {
         this.content = content;
     }
 
@@ -17,13 +17,13 @@ public class Bucket <T extends BucketContent> {
 
     public void fill(Water content) throws Exception {
         if (this.content == null) {
-            this.content = (T) content;
+            this.content = content;
         } else {
-            this.content = (T) new Sand("wet " + this.content.getName());
+            this.content = new Sand("wet " + this.content.getName());
         }
     }
 
-    public void fill(T content) throws Exception {
+    public void fill(BucketContent content) throws Exception {
         if (this.content != null) {
             throw new Exception("❌ The bucket is full of " + this.content.getName() + ", you should empty it before you fill it with " + content.getName());
         }
