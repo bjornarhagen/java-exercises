@@ -1,5 +1,8 @@
 package Generics;
 
+import Generics.BucketContentType.Water;
+import Generics.BucketContentType.WetBucketContent;
+
 public class Bucket <T extends BucketContent> {
     private BucketContent content;
 

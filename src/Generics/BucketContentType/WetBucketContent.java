@@ -1,4 +1,6 @@
-package Generics;
+package Generics.BucketContentType;
+
+import Generics.BucketContent;
 
 public class WetBucketContent implements BucketContent {
     private final String name;

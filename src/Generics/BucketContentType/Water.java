@@ -1,4 +1,6 @@
-package Generics;
+package Generics.BucketContentType;
+
+import Generics.BucketContent;
 
 public class Water implements BucketContent {
     private String name;
