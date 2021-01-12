@@ -19,7 +19,7 @@ public class Bucket <T extends BucketContent> {
         if (this.content == null) {
             this.content = content;
         } else {
-            this.content = new Sand("wet " + this.content.getName());
+            this.content = new WetBucketContent(this.content.getName());
         }
     }
 
